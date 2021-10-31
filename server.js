@@ -42,9 +42,6 @@ app.use('/auth', authRouter)
 const userRouter = require('./routes/user')
 app.use('/user', userRouter)
 
-// pastry
-const pastryRouter = require('./routes/pastry')
-app.use('/pastry', pastryRouter)
 
 // run app listen on port --------------------
 app.listen(port, () => {
